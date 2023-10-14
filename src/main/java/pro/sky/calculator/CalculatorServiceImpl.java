@@ -13,16 +13,16 @@ public class CalculatorServiceImpl implements CalculatorService {
         return "Мы не делим на ноль!";
     }
 
-    public Serializable calculatingPlus(int num1, int num2) {
+    public int calculatingPlus(int num1, int num2) {
         return num1 + num2;
     }
 
-    public Serializable calculatingMinus(int num1, int num2) {
+    public int calculatingMinus(int num1, int num2) {
 
         return num1 - num2;
     }
 
-    public Serializable calculatingMultiply(int num1, int num2) {
+    public int calculatingMultiply(int num1, int num2) {
 
         return num1 * num2;
     }
